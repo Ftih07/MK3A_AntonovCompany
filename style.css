@@ -733,4 +733,47 @@ h3{
       .rowa::-webkit-scrollbar-thumb:hover {
         background-color: #555; /* Warna thumb scrollbar saat di-hover */
       }
+
+      content {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+      
+      .image {
+        display: none; 
+      }
+      .main-title{
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .text-box2, .info {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .media-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    
+      .media-info li {
+        list-style: none;
+        margin-bottom: 10px;
+      }
+      .media-info a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .media-info a i {
+        margin-right: 8px;
+      }
     }
