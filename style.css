@@ -20,12 +20,12 @@ nav{
     padding:  2% 6%;
     justify-content: space-between;
     align-items: center;
-    position: fixed; /* Menempelkan navigasi di bagian atas */
+    position: fixed; 
     width: 90%;
     top: 0;
     left: 0;
-    z-index: 900; /* Menyediakan lapisan lebih tinggi agar navigasi selalu terlihat di atas */
-    transition: background-color 0.3s ease; /* Efek transisi halus untuk perubahan warna background */
+    z-index: 900; 
+    transition: background-color 0.3s ease; 
 }
 
 /* Menambahkan gaya untuk nav yang sticky */
@@ -623,7 +623,7 @@ h3{
 
   }
   #safety {
-    scroll-margin-top: 50px; /* Sesuaikan dengan tinggi offset yang diinginkan */
+    scroll-margin-top: 50px; 
   }
   #contact {
     scroll-margin-top: 140px; 
@@ -705,33 +705,33 @@ h3{
 
     /*industries*/
     .rowa {
-        flex-direction: row; /* Atur arah flex menjadi horizontal */
-        flex-wrap: nowrap; /* Mencegah elemen turun ke baris baru */
-        overflow-x: auto; /* Tambahkan scrolling horizontal jika diperlukan */
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        overflow-x: auto;
       }
     
       .industri {
-        flex: 0 0 auto; /* Elemen tidak boleh mengecil dan mempertahankan ukuran asli */
-        margin: 0 10px; /* Tambahkan jarak antar elemen */
+        flex: 0 0 auto; 
+        margin: 0 10px; 
         width: 400px;
       }
       .rowa::-webkit-scrollbar {
-        height: 8px; /* Tinggi scrollbar untuk sumbu X */
+        height: 8px; 
       }
     
       .rowa::-webkit-scrollbar-track {
-        background: #f1f1f1; /* Warna latar belakang track scrollbar */
-        border-radius: 10px; /* Membuat track scrollbar dengan sudut melingkar */
+        background: #f1f1f1; 
+        border-radius: 10px;
       }
     
       .rowa::-webkit-scrollbar-thumb {
-        background-color: #888; /* Warna thumb scrollbar */
-        border-radius: 10px; /* Membuat thumb scrollbar dengan sudut melingkar */
-        border: 2px solid #f1f1f1; /* Menambahkan border untuk jarak thumb dengan track */
+        background-color: #888; 
+        border-radius: 10px; 
+        border: 2px solid #f1f1f1; 
       }
     
       .rowa::-webkit-scrollbar-thumb:hover {
-        background-color: #555; /* Warna thumb scrollbar saat di-hover */
+        background-color: #555; 
       }
 
       content {
